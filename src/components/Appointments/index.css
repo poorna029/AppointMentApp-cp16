@@ -1,0 +1,163 @@
+/* Write your CSS here */
+.mc1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  padding: 5% 10%;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0, #8b5cf6);
+  flex-grow: 1;
+  max-height: 200vh;
+}
+label {
+  display: block;
+  margin: 0px;
+}
+
+.c1 {
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+}
+
+.r1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button-1 {
+  background-color: #8b5cf6;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 7px;
+  width: 80px;
+  outline: outline;
+  border: none;
+  margin: 10px 0px;
+  height: 35px;
+}
+
+.h-rule {
+  width: 100%;
+  margin: 0px;
+}
+.r2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.para-1 {
+  border: 1px solid #8b5cf6;
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: #9796f0;
+  cursor: pointer;
+}
+input {
+  width: 25vw;
+  height: 35px;
+  outline: none;
+  margin: 20px 0px;
+}
+.Appoinments-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 2% 4%;
+}
+
+.form-sep {
+  display: flex;
+}
+.image-1 {
+  width: 50%;
+  height: 100%;
+  padding: 1% 2%;
+}
+.li-app {
+  display: flex;
+  padding: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 576px) {
+  .form-sep {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .image-1 {
+    order: -1;
+    width: 100%;
+    padding: 1% 2%;
+  }
+  .r1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    overflow: auto;
+  }
+  input {
+    width: 62vw;
+    height: 35px;
+    outline: none;
+    margin: 20px 0px;
+    flex-grow: 1;
+  }
+
+  .para-1 {
+    border: 1px solid #8b5cf6;
+    border-radius: 20px;
+    padding: 1.6px 8px;
+    color: #9796f0;
+    font-size: 9px;
+    text-align: center;
+    overflow: auto;
+    cursor: pointer;
+  }
+
+  .Appoinments-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-shrink: 4;
+  }
+  .Appointments-heading {
+    font-size: 15px;
+    text-align: center;
+  }
+  .main-heading {
+    font-size: 22px;
+    text-align: center;
+    overflow: auto;
+  }
+
+  .r2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+  }
+
+  .button-1 {
+    background-color: #8b5cf6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 7px;
+    width: 60px;
+    outline: outline;
+    border: none;
+    margin: 10px 0px;
+    height: 35px;
+    overflow: auto;
+  }
+}

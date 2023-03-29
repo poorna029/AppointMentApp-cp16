@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.col1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #b5b7c4;
+  width: 100%;
+  border-radius: 12px;
+  height: 18vh;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+}
+.image-star {
+  width: 30px;
+  height: 30px;
+}
+.date-para {
+  padding: 0pc 2%;
+  margin-top: 20px;
+  text-align: start;
+}
+.title-heading {
+  margin: 0px 0px;
+}
+.list-type {
+  margin: 5px 5px;
+  width: 20vw;
+}
+.favButton {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
